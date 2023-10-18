@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="stylsheet" href="styles.css">
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Service">Service</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject"required>
+        <label for="message">Message:</label>
+        <textarea placeholder="leave a message here" id="message" name="message" rows="5" cols="50" required></textarea>
+ <button type="submit">Submit</button>
+        </form>  
 </body>
 </html>
